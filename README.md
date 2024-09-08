@@ -6,8 +6,6 @@ Practically a fork of my webpack template for html-css only projects
 
 - Uses pnpm
 - Uses stylelint with a BEM-compliant config
-- Uses eslint with the airbnb-base config and a few personal modifications
-- Almost all js files are in ES6 except for the `eslintrc.cjs`
 - Tries to store config files in the `.config` subdir
 
 ## VSCode config
