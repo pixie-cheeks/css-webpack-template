@@ -1,8 +1,8 @@
 {
   "name": "webpack-template",
+  "private": true,
   "version": "1.0.0",
   "description": "Basic css-only webpack template",
-  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "build": "webpack -c webpack/prod.js",
@@ -11,9 +11,6 @@
     "lint": "stylelint -c .config/stylelint.config.js --mw 0 .",
     "lint:fix": "stylelint -c .config/styleling.config.js --fix ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@awmottaz/prettier-plugin-void-html": "^1.6.1",
     "css-loader": "^7.1.2",
